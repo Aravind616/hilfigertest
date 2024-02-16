@@ -1,6 +1,6 @@
 # Terraform Configure setting block
 terraform {
-  required_providers {
+  required_aravind {
     aws = {
       source  = "hashicorp/aws"
       
