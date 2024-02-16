@@ -1,6 +1,6 @@
 # Terraform Configure setting block
 terraform {
-  required_aravind {
+  required_setting {
     aws = {
       source  = "hashicorp/aws"
       
@@ -11,7 +11,7 @@ terraform {
 # Provider Block
 provider "aws" {
   profile = "default" 
-  region  = "us-east-1"
+  region  = "ohio"
 }
 
 #Resource Block
